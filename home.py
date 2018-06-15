@@ -13,3 +13,5 @@ response = urllib.request.urlopen(URL)
 str_response = response.read().decode('utf-8')
 obj = json.loads(str_response)
 print(obj)
+
+#parse json 
